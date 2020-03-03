@@ -39,7 +39,7 @@ if __name__ == '__main__':
     y = train_df['label_'+event_name]
 
     # clf = SVC(probability=True, gamma='auto')
-    clf = xgb.XGBClassifier()
+    # clf = xgb.XGBClassifier()
     clf = xgb.XGBClassifier(learning_rate=0.01,
                       colsample_bytree = 0.4,
                       subsample = 0.8,
