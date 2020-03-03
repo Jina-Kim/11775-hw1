@@ -11,6 +11,6 @@
   * MFCC + ASR Transcriptions
     - concatenate two extracted features
 
-* Multimedia Event Detection Classification (run.med.sh)
+* Multimedia event detection classification (run.med.sh)
   * Classifiers
     - train each classifier (SVM and XGBoost) in train set and calculate average precision on validation/test set
